@@ -9,4 +9,5 @@ class ApplicationConstant {
   ApplicationConstant._init();
 
   final String baseUrl = 'https://picsum.photos/v2/list';
+  static const LANG_ASSET_PATH = 'assets/lang';
 }

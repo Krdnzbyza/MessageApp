@@ -1,0 +1,17 @@
+{
+    "appBarMain":{
+        "name":"CHAT"
+
+    },
+    "firstpart":{
+      "activitiees" : "ACTİVİTY"
+    },
+    "secondpartext":{
+      "messages" : "Messages"
+    },
+    "time":{
+      "day" : "1",
+      "clock" : "24 min"
+    }
+
+}

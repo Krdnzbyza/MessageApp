@@ -9,8 +9,8 @@ class bottomNavigation extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: context.dynamicHeight(0.11),
-      width: double.infinity,
+      height: context.dynamicHeight(0.1),
+      // width: context.dynamicWidth(0.9),
       padding: context.paddingLow,
       decoration: BoxDecoration(
           borderRadius: context.highBorderRadius, color: colorConst.emerald),
