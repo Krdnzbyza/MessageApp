@@ -48,17 +48,22 @@ class rightcardText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+    return Row(
       children: [
-        Text(LocaleKeys.time_clock.tr(), style: context.textTheme.bodyText2),
-        CircleAvatar(
-          backgroundColor: Colors.green,
-          child: Text(
-            LocaleKeys.time_day.tr(),
-            style: context.primaryTextTheme.bodyText1,
-          ),
-        )
+        Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [
+            Text(LocaleKeys.time_clock.tr(),
+                style: context.textTheme.bodyText2),
+            CircleAvatar(
+              backgroundColor: Colors.green,
+              child: Text(
+                LocaleKeys.time_day.tr(),
+                style: context.primaryTextTheme.bodyText1,
+              ),
+            )
+          ],
+        ),
       ],
     );
   }

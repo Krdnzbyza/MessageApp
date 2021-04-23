@@ -108,7 +108,7 @@ class MessageView extends StatelessWidget {
                 avatarCircle(index),
                 SizedBox(width: context.dynamicWidth(0.04)),
                 cardContainer(context, index),
-                //SizedBox(width: context.dynamicWidth(0.12)),
+                SizedBox(width: context.dynamicWidth(0.12)),
                 rightcardText()
               ],
             ),
